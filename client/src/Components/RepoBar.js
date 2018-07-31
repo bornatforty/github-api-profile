@@ -7,7 +7,7 @@ import {getUser} from '../Actions/Actions'
 export class RepoBar extends Component {
    static defaultProps = {
       searchValue: {},
-      repos: {}
+      repos: []
    }
    state = {
       searchValue: ''
@@ -16,6 +16,10 @@ export class RepoBar extends Component {
       this.setState({
          [e.target.name]: e.target.value
       })
+   }
+
+   componentDidMount() {
+      getUser()
    }
 
 handleSubmit = (e) => {
@@ -46,7 +50,7 @@ handleSubmit = (e) => {
 
 function mapStateToProps(state) {
 	return {
-		repos: state.Reducer.data.repos
+		repos: state.Reducer.repos
 	}
 }
 

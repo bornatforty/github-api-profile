@@ -1,13 +1,8 @@
 .searchContainer {
 	background: rgb(37,41,46);
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	padding: 10px 25px 10px 25px;
-}
-
-.fa-github {
-	font-family: Font Awesome\ 5 Solid;
-	font-weight: 900;
 }
 
 .searchInput {
@@ -17,16 +12,19 @@
 	border: none;
 	margin-left: 10px;
 	margin-right: 10px;
+	color: #ccc;
 }
 
 .searchInput::placeholder {
-	color: #fff;
+	color: #ccc;
 }
 
-.searchContainer a {
+.leftStuff a {
 	text-decoration: none;
 	color: white;
 	font-family: sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
 	margin-left: 5px;
 	margin-right: 5px;
 	padding-top: 10px;
@@ -41,4 +39,13 @@
 	font-weight: 900;
 	color: #ccc;
 	padding: 10px 10px 0 10px;
+}
+#imgsmall {
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+}
+.leftStuff {
+	display: flex;
+	align-items: center;
 }

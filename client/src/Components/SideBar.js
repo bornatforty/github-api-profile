@@ -4,7 +4,7 @@ import './SideBar.css'
 
 export class SideBar extends Component {
 	static defaultProps = {
-		user:{}
+		user: {}
 	}
 
  render() {
@@ -23,7 +23,7 @@ export class SideBar extends Component {
 
 function mapStateToProps(state) {
 	return {
-		user: state.Reducer.data.user
+		user: state.Reducer.user
 	}
 }
 

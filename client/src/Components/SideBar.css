@@ -1,4 +1,32 @@
 .fauxButton {
 	font-size: 1em;
-	padding: 5px 30px 5px 30px;
+	padding: 5px;
+	width: 100%;
+}
+
+h1 {
+	font-family: sans-serif;
+	font-size: 2em;
+	color: #000;
+	margin: 0;
+}
+
+h3 {
+	color: #888;
+	font-weight: lighter;
+	margin: 0;
+}
+
+.sideContainer img {
+	width: 250px;
+	height: 250px;
+	border-radius: 5px;
+}
+
+.sideContainer {
+	width: 250px;
+	font-family: sans-serif;
+	font-size: 0.9em;
+	color: #888;
+	line-height: 1.5;
 }

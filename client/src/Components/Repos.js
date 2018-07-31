@@ -22,10 +22,12 @@ export class Repos extends Component {
 			<RepoBar />
 			<div>
 			{this.props.repos.map (repo => {
-				return <div key={'repo' + repo.id}>
-							<h3>{repo.name}</h3>
-							<p>{repo.language}</p>
-							<p>{repo.updated_at}</p>
+				return <div key={'repo' + repo.id} className="repoStuff">
+							<div className="eachRepo">
+								<p className="repoName">{repo.name}</p>
+								<p className="repoCaption">{repo.description}</p>
+								<p className="repoCaption">{repo.language}</p>
+							</div>
 						</div>
 			})}
 			</div>
@@ -36,7 +38,7 @@ export class Repos extends Component {
 
 function mapStateToProps(state) {
 	return {
-		repos: state.Reducer.data.repos
+		repos: state.Reducer.repos
 	}
 }
 

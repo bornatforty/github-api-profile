@@ -29,19 +29,21 @@ handleSubmit = (e) => {
  render() {
    return (
    	<div className="searchContainer">
-   		<span className="fa fa-github fa-2x"></span>
-   		<form onSubmit={this.handleSubmit}>
-			<input onChange={this.searchValue} name="searchValue" value={this.state.searchValue} type="text" className="searchInput" placeholder="Search or jump to..."/>
-   		</form>
+   		<div className="leftStuff">
+   			<span className="fa fa-github fa-2x"></span>
+   			<form onSubmit={this.handleSubmit}>
+				<input onChange={this.searchValue} name="searchValue" value={this.state.searchValue} type="text" className="searchInput" placeholder="Search or jump to..."/>
+   			</form>
    			<a href="http://github.com/pulls">Pull Requests</a>
    			<a href="http://github.com/issues">Issues</a>
    			<a href="http://github.com/marketplace">Marketplace</a>
    			<a href="http://github.com/explore">Explore</a>
+   		</div>
    				<div className="userNav">
    					<span className="fa fa-bell-o"></span>
    					<span className="fa fa-plus"></span>
-   					<span className="fa fa-caret-down"></span>
    					<img src={this.props.user.avatar_url} id="imgsmall" alt={this.props.user.name} />
+   					<span className="fa fa-caret-down"></span>
    				</div>
    	</div>
      
@@ -51,7 +53,7 @@ handleSubmit = (e) => {
 
 function mapStateToProps(state) {
 	return {
-		user: state.Reducer.data.user
+		user: state.Reducer.user
 	}
 }
 
