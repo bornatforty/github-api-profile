@@ -1,0 +1,44 @@
+.searchContainer {
+	background: rgb(37,41,46);
+	display: flex;
+	justify-content: center;
+	padding: 10px 25px 10px 25px;
+}
+
+.fa-github {
+	font-family: Font Awesome\ 5 Solid;
+	font-weight: 900;
+}
+
+.searchInput {
+	background: rgba(255,255,255,0.1);
+	padding: 10px;
+	width: 300px;
+	border: none;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.searchInput::placeholder {
+	color: #fff;
+}
+
+.searchContainer a {
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top: 10px;
+}
+
+.userNav {
+	justify-content: flex-end;
+}
+
+.fa {
+	font-family: Font Awesome\ 5 Solid;
+	font-weight: 900;
+	color: #ccc;
+	padding: 10px 10px 0 10px;
+}

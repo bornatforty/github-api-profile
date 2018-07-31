@@ -1,0 +1,37 @@
+.repoContainer {
+	display: flex;
+	justify-content: flex-end;
+	font-family: sans-serif;
+	padding: 30px;
+}
+
+.fas {
+	font-family: Font Awesome\5 Solid;
+	font-weight: 900;
+}
+
+.repoButton {
+	font-family: sans-serif;
+	font-size: 1em;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	border-radius: 5px;
+}
+.repoSearch {
+	width: 400px;
+	padding: 10px;
+}
+
+.fauxStyle {
+	font-weight: bold;
+}
+
+.newButton {
+	color: white;
+	font-weight: bold;
+	background: green;
+	border-radius: 5px;
+	font-size: 0.8em;
+	padding: 8px;
+}

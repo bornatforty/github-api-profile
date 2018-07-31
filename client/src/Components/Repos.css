@@ -1,0 +1,15 @@
+#repoNav a {
+	text-decoration: none;
+	font-family: sans-serif;
+	padding: 15px;
+	color: #555;
+	border-bottom: 1px solid #555;
+}
+
+#repoNav a:focus {
+	color: #000;
+	border-bottom: 2px solid red;
+}
+.repoInfo {
+	background: #ccc;
+}
