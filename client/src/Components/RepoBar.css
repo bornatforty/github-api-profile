@@ -12,26 +12,35 @@
 
 .repoButton {
 	font-family: sans-serif;
-	font-size: 1em;
+	font-size: 0.8em;
 	margin: 5px;
-	padding: 5px;
+	padding: 7px 5px;
 	text-align: center;
 	border-radius: 5px;
 }
 .repoSearch {
-	width: 400px;
+	width: 350px;
 	padding: 10px;
 }
 
 .fauxStyle {
 	font-weight: bold;
+	font-size: 1.2em;
 }
 
 .newButton {
 	color: white;
 	font-weight: bold;
-	background: green;
+	background: linear-gradient(#66ff66, green);
 	border-radius: 5px;
-	font-size: 0.8em;
-	padding: 8px;
+	font-size: 0.9em;
+	padding: 5px;
+}
+.fa-caret-down {
+	margin: 0;
+	padding: 0;
+}
+.fa-book {
+	margin: 0;
+	padding: 5px 0 5px 0;
 }

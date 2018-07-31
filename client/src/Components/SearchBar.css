@@ -17,6 +17,10 @@
 
 .searchInput::placeholder {
 	color: #ccc;
+	font-size: 1.1em;
+}
+input:focus {
+	outline: none;
 }
 
 .leftStuff a {

@@ -1,2 +1,3 @@
 html {box-sizing: border-box;}
 *, *:before, *:after {box-sizing: inherit;}
+body {width: 1000px; margin: 0 auto; padding: 10px;}
